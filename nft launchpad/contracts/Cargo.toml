@@ -1,0 +1,7 @@
+[package]
+name = "hyperliquid_nft"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hyperliquid-std = "0.1.0" # Fictional crate for demonstration

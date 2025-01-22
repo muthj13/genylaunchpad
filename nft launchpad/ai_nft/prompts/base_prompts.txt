@@ -1,0 +1,5 @@
+# A collection of fallback or base prompts, one per line.
+
+A majestic dragon perched on top of a crystal mountain
+A neon-lit cyberpunk city with flying cars and holographic billboards
+Cute cartoon animals in a magical forest

@@ -1,0 +1,4 @@
+network: "testnet"
+deployer_address: "HLQ1234ABCD"
+wasm_path: "./target/wasm32-unknown-unknown/release/hyperliquid_nft.wasm"
+contract_address: "HLQ_CONTRACT_XYZ"

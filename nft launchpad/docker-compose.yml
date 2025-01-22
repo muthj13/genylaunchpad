@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - HLQ_NODE_RPC=${HLQ_NODE_RPC}
+      - HLQ_DEPLOYER_KEY=${HLQ_DEPLOYER_KEY}
+    depends_on:
+      - hyperliquid-node
+    volumes:
+      - .:/usr/src/app
+    command: >
+      bash -c "cd ai_nft && python main.py"
+
+  hyperliquid-node:
+    image: hyperliquid/hypurrr-node:latest
+    # This is a fictional docker image for the Hyperliquid testnet
+    container_name: hyperliquid_node
+    ports:
+      - "9944:9944"
+    command: "--dev"
