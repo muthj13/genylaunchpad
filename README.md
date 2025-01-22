@@ -2,7 +2,7 @@
 
 A complex, end-to-end AI + NFT Launchpad that demonstrates:
 - **AI Image Generation** (using OpenAI or other models).
-- **Rust-based NFT contracts** on the fictional [Hyperliquid](https://hyperliquid.example.org/) blockchain.
+- **Rust-based NFT contracts** on the tesnet [Hyperliquid](https://hyperfoundation.org/) blockchain.
 - **Python** scripts to deploy and interact with these contracts.
 - **Docker** for containerized development.
 - **Streamlit** for a simplified UI.
@@ -29,7 +29,7 @@ This repository shows a hypothetical scenario where:
 - You mint those NFTs on the **Hyperliquid** blockchain via a Rust contract.
 - You manage the entire flow with Python scripts for deployment, interactions, and user-facing endpoints.
 
-**Disclaimer**: Hyperliquid, Hypurrrscan, and HLQ tokens are *fictional*. This is for demonstration purposes.
+**Disclaimer**: Hyperliquid, Hypurrrscan, and HLQ tokens are in testnet. This is for demonstration purposes.
 
 ## Requirements
 
